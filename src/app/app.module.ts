@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
 import {
@@ -8,7 +8,10 @@ import {
   MatCardModule,
   MatButtonModule,
   MatToolbarModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatIconModule,
+  MatGridListModule,
+  MatListModule
 } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -21,6 +24,7 @@ import { PostListComponent } from './posts/post-list/post-list.component';
 import { NavComponent } from './header/nav/nav.component';
 import { SplashComponent } from './header/splash/splash.component';
 import { FooterComponent } from './footer/footer.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -33,6 +37,7 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
+    MDBBootstrapModule.forRoot(),
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
@@ -42,10 +47,14 @@ import { FooterComponent } from './footer/footer.component';
     MatToolbarModule,
     MatExpansionModule,
     MatMenuModule,
+    MatIconModule,
     MatJumbotronModule.forRoot(),
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatGridListModule,
+    MatListModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ NO_ERRORS_SCHEMA ]
 })
 export class AppModule {}

@@ -1,0 +1,7 @@
+mat-grid-list.mat-grid-list {
+    background-color: darkred;
+    color: white;
+}
+.mat-list .mat-list-item .mat-list-item-content {
+    color: white;
+}

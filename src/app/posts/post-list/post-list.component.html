@@ -1,4 +1,4 @@
-<mat-accordion multi="true" *ngIf="posts.length > 0">
+<!--<mat-accordion multi="true" *ngIf="posts.length > 0">
   <mat-expansion-panel *ngFor="let post of posts">
     <mat-expansion-panel-header>
       {{ post.title }}
@@ -11,3 +11,32 @@
   </mat-expansion-panel>
 </mat-accordion>
 <p class="info-text mat-body-1" *ngIf="posts.length <= 0">No posts added yet!</p>
+-->
+<div layout="row" layout-xs="column" style="background-color: red;">
+    <div flex>
+        <mat-card>
+            <mat-card-title>Blue Lagoon Bar</mat-card-title>
+            <mat-card-subtitle>A local dive for those who like to see familiar faces.</mat-card-subtitle>
+            </mat-card>
+    </div>
+    <div flex>
+      I'm below on mobile, and to the right on larger devices.
+    </div>
+  </div>
+
+<mat-card>
+    <mat-card-title>Blue Lagoon Bar</mat-card-title>
+    <mat-card-subtitle>A local dive for those who like to see familiar faces.</mat-card-subtitle>
+    </mat-card>
+    <mat-card>
+        <mat-card-title>Blue Lagoon Bar</mat-card-title>
+        <mat-card-subtitle>A local dive for those who like to see familiar faces.</mat-card-subtitle>
+        </mat-card>
+        <mat-card>
+            <mat-card-title>Blue Lagoon Bar</mat-card-title>
+            <mat-card-subtitle>A local dive for those who like to see familiar faces.</mat-card-subtitle>
+            </mat-card>
+            <mat-card>
+                <mat-card-title>Blue Lagoon Bar</mat-card-title>
+                <mat-card-subtitle>A local dive for those who like to see familiar faces.</mat-card-subtitle>
+                </mat-card>      

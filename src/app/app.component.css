@@ -1,8 +1,6 @@
 main {
-  width: 80%;
+  width: 100%;
   margin: 1rem auto;
 }
 
-.mat-card:not([class*=mat-elevation-z]){
-  box-shadow: none;
-}
+
