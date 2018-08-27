@@ -1,22 +1,40 @@
+/* main design*/
 main {
   width: 100%;
   margin: 1rem auto;
 }
+.container {
+  min-height: 100%;
+  width: 100%;
+ }
 
-
+/* Generl Image*/
 .img {
   width: 100%;
   margin-bottom: 18%;
 }
+
+/* Home page design*/
+.homeLayout img.img.mat-card-image {
+  height: 150px;
+  padding: 50px 0;
+  margin: 0;
+}
+
 .card-picture {
   width: 23%;
   margin-bottom: 2%;
 }
-.container {
-  min-height: 100%;
-  width: 100%;
-}
 .search-form {
   width: 90%;
+}
+label#mat-form-field-label-3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+h2#cHH {
+  padding: 20px 100px 0;
+  margin: 0;
 }
 

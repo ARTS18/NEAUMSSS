@@ -1,0 +1,6 @@
+div#splasher{
+    background: url(/assets/tabaco.png) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    color: #ffffff;
+}

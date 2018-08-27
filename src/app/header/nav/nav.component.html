@@ -1,9 +1,20 @@
 
-  <button mat-button [matMenuTriggerFor]="menu"><img src="assets/account_box.png"></button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>Signn</button>
-    <button mat-menu-item>Sign-up</button>
-  </mat-menu>
-  | Hour '33
- 
+  <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+
+  <div fxFlex="50%" style="text-align:left">
+    <h1 class="topNav">
+      Hour '33
+    </h1>
+  </div>
+
+  <div fxFlex="50%" style="text-align: right">
+      <h1 class="topNav">
+    <button mat-button [matMenuTriggerFor]="menu"><img src="assets/account-box.png"></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Signn</button>
+      <button mat-menu-item>Sign-up</button>
+    </mat-menu>
+    </h1>
+  </div>
+</div> 
 

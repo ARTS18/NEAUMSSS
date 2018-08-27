@@ -1,0 +1,11 @@
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: rgba(255, 255, 255, 0.82);
+}
+.searchHour {
+    margin: 177px 50px;
+    background-color: rgba(0,0,0,.42);
+}
+
+.mat-form-field {
+    padding: 30px 50px;
+}
